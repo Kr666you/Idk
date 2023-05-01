@@ -1,5 +1,36 @@
+
+--[[
+___          _                     _                     
+  / __\___   __| |  ___   _ __  __ _ | |_  _   _  _ __ ___  
+ / _\ / _ \ / _` | / _ \ | '__|/ _` || __|| | | || '_ ` _ \ 
+/ /  |  __/| (_| || (_) || |  | (_| || |_ | |_| || | | | | |
+\/    \___| \__,_| \___/ |_|   \__,_| \__| \__,_||_| |_| |_|
+
+Fedoratum Admin Abuser
+
+Games that it works well on :
+FREE ADMIN (This is the main game)
+
+(Other admin games works but might be broken)
+
+Since im a nice guy i will leave this open source hahehahee, credits to me guys please or else :gun emoji:
+
+Made By Fedoratum
+--]]
+-- // Set your admin prefix // --
 local AdminPrefix = ";"
-local AffectAllPlayer = false
+-- // It will automatically set it // --
+-- It does not accept more than 2 characters
+-- or an unknown character
+
+-- // Option // --
+
+local AffectAllPlayer = true
+-- false affects not yourself but others
+-- true affects everyone including you
+
+
+-- // Hider does not hide when someone use logs
 
 hider = [[
 
@@ -368,10 +399,6 @@ Exit.TextWrapped = true
 -- // Audio Might Be Outdated // --
 
 local music = {
-"6846153394"
-"6529070845"
-"6911766512"
-"6819593773"
 "6770303644",
 "6781116057",
 "5216738441"
